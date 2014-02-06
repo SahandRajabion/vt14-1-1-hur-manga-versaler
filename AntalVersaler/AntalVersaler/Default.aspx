@@ -4,14 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
+    <link href ="~/Content/bj.css" rel="stylesheet" type="text/css"/>
     <title>Hur Många Versaler</title>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="Box">
         <!--Textboxen för att skriva in sin text-->
         <h1> Skriv din text och se hur många Versaler den innehåller?</h1>
-    <asp:TextBox ID="Textbox" runat="server" TextMode="MultiLine" Height="300px" Width="500px"></asp:TextBox>
+    <asp:TextBox ID="Textbox" runat="server" TextMode="MultiLine"></asp:TextBox>
     </div>
         
         <!--Skapar Placeholder för p-tagg följt av labeln där resultatet presenteras.-->

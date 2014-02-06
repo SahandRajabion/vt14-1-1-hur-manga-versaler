@@ -57,7 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Style.css" />
+    <Content Include="Content\bj.css" />
     <Content Include="Default.aspx" />
     <Content Include="ErrorMessage.html" />
     <Content Include="Web.config" />
