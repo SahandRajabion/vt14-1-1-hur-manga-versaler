@@ -18,7 +18,7 @@ namespace AntalVersaler
         {
 
             //Om inte textboxen inte är "tom" utförs följande .... 
-            if (Textbox.Text != "")
+            if (Textbox.Text != String.Empty)
             {
                 //Skapar en variabel av typen "string" och tilldelar den den inmatade texten i textboxen.
                 string text = Textbox.Text;
